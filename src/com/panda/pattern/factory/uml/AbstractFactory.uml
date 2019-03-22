@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.panda.pattern.factory.abstractorchardfactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="155.0" y="551.0">com.panda.pattern.factory.abstractorchardfactory.AppleOrdinary</node>
+    <node x="154.0" y="350.0">com.panda.pattern.factory.abstractorchardfactory.BananaBoutique</node>
+    <node x="237.0" y="126.0">com.panda.pattern.factory.abstractorchardfactory.AbstractAppleFactory</node>
+    <node x="334.0" y="448.0">com.panda.pattern.factory.abstractorchardfactory.AbstractFactoryTest</node>
+    <node x="77.75" y="448.0">com.panda.pattern.factory.abstractorchardfactory.IOrdinary</node>
+    <node x="0.0" y="350.0">com.panda.pattern.factory.abstractorchardfactory.AppleBoutique</node>
+    <node x="0.0" y="551.0">com.panda.pattern.factory.abstractorchardfactory.BnanaOrdinary</node>
+    <node x="0.0" y="126.0">com.panda.pattern.factory.abstractorchardfactory.AbstractBananaFactory</node>
+    <node x="79.25" y="247.0">com.panda.pattern.factory.abstractorchardfactory.IBoutique</node>
+    <node x="118.5" y="0.0">com.panda.pattern.factory.abstractorchardfactory.IOrchatdFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.panda.pattern.factory.abstractorchardfactory.AbstractAppleFactory" target="com.panda.pattern.factory.abstractorchardfactory.IOrchatdFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="345.5" y="101.0" />
+      <point x="281.25" y="101.0" />
+      <point x="54.25" y="38.0" />
+    </edge>
+    <edge source="com.panda.pattern.factory.abstractorchardfactory.BananaBoutique" target="com.panda.pattern.factory.abstractorchardfactory.IBoutique">
+      <point x="0.0" y="-26.5" />
+      <point x="225.5" y="325.0" />
+      <point x="179.75" y="325.0" />
+      <point x="33.5" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.abstractorchardfactory.AbstractBananaFactory" target="com.panda.pattern.factory.abstractorchardfactory.IOrchatdFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="108.5" y="101.0" />
+      <point x="172.75" y="101.0" />
+      <point x="-54.25" y="38.0" />
+    </edge>
+    <edge source="com.panda.pattern.factory.abstractorchardfactory.AppleOrdinary" target="com.panda.pattern.factory.abstractorchardfactory.IOrdinary">
+      <point x="0.0" y="-26.5" />
+      <point x="222.0" y="526.0" />
+      <point x="178.25" y="526.0" />
+      <point x="33.5" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.abstractorchardfactory.AppleBoutique" target="com.panda.pattern.factory.abstractorchardfactory.IBoutique">
+      <point x="0.0" y="-26.5" />
+      <point x="67.0" y="325.0" />
+      <point x="112.75" y="325.0" />
+      <point x="-33.5" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.abstractorchardfactory.BnanaOrdinary" target="com.panda.pattern.factory.abstractorchardfactory.IOrdinary">
+      <point x="0.0" y="-26.5" />
+      <point x="67.5" y="526.0" />
+      <point x="111.25" y="526.0" />
+      <point x="-33.5" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="151.0" y="437.5" />
+  <SelectedNodes>
+    <node>com.panda.pattern.factory.abstractorchardfactory.AppleOrdinary</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.panda.pattern.factory.methodfactory.MethodFactoryTest</OriginalElement>
+  <nodes>
+    <node x="105.0" y="207.0">com.panda.pattern.factory.methodfactory.MethodFactoryTest</node>
+    <node x="432.0" y="100.0">com.panda.pattern.factory.AppleOrchard</node>
+    <node x="94.75" y="0.0">com.panda.pattern.factory.methodfactory.IMethodOrchardFactory</node>
+    <node x="582.0" y="100.0">com.panda.pattern.factory.BananaOrchard</node>
+    <node x="201.0" y="103.0">com.panda.pattern.factory.methodfactory.AppleOrchardFactory</node>
+    <node x="510.25" y="-3.0">com.panda.pattern.factory.IOrchard</node>
+    <node x="0.0" y="103.0">com.panda.pattern.factory.methodfactory.BananaOrchardFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.panda.pattern.factory.methodfactory.AppleOrchardFactory" target="com.panda.pattern.factory.methodfactory.IMethodOrchardFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="287.0" y="78.0" />
+      <point x="235.75" y="78.0" />
+      <point x="47.0" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.AppleOrchard" target="com.panda.pattern.factory.IOrchard">
+      <point x="0.0" y="-26.5" />
+      <point x="497.0" y="75.0" />
+      <point x="542.25" y="75.0" />
+      <point x="-32.0" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.BananaOrchard" target="com.panda.pattern.factory.IOrchard">
+      <point x="0.0" y="-26.5" />
+      <point x="651.5" y="75.0" />
+      <point x="606.25" y="75.0" />
+      <point x="32.0" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.methodfactory.BananaOrchardFactory" target="com.panda.pattern.factory.methodfactory.IMethodOrchardFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="90.5" y="78.0" />
+      <point x="141.75" y="78.0" />
+      <point x="-47.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="137.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

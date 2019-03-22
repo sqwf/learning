@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.panda.pattern.factory.easyfactory.EasyFactoryTest</OriginalElement>
+  <nodes>
+    <node x="159.0" y="103.0">com.panda.pattern.factory.AppleOrchard</node>
+    <node x="0.0" y="103.0">com.panda.pattern.factory.BananaOrchard</node>
+    <node x="0.0" y="299.0">com.panda.pattern.factory.easyfactory.EasyFactoryTest</node>
+    <node x="82.75" y="0.0">com.panda.pattern.factory.IOrchard</node>
+    <node x="0.0" y="201.0">com.panda.pattern.factory.easyfactory.OrchardFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.panda.pattern.factory.BananaOrchard" target="com.panda.pattern.factory.IOrchard">
+      <point x="0.0" y="-26.5" />
+      <point x="69.5" y="78.0" />
+      <point x="114.75" y="78.0" />
+      <point x="-32.0" y="26.5" />
+    </edge>
+    <edge source="com.panda.pattern.factory.AppleOrchard" target="com.panda.pattern.factory.IOrchard">
+      <point x="0.0" y="-26.5" />
+      <point x="224.0" y="78.0" />
+      <point x="178.75" y="78.0" />
+      <point x="32.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8467741935483871" x="160.0" y="186.0" />
+  <SelectedNodes>
+    <node>com.panda.pattern.factory.easyfactory.EasyFactoryTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
